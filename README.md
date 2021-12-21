@@ -1,2 +1,1 @@
-# javascript-course
-CoderHouse Testing
+# Desafío 1
