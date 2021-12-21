@@ -1,1 +1,2 @@
 # javascript-course
+CoderHouse Testing
