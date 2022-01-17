@@ -10,7 +10,7 @@ function color() {
     else if (seleccion == "color") {
         precio = parseFloat(0.50)
         console.log("Ha elegido color: " + precio)
-        alert("Has elegido negro, el precio de cada página es de 50 céntimos")
+        alert("Has elegido color, el precio de cada página es de 50 céntimos")
     }
     else {
         alert("Debes seleccionar una opción válida")
@@ -30,5 +30,5 @@ color();
 cantidad();
 
 
-resultado = suma(paginas, precio); 
+resultado = multiplicación(paginas, precio); 
 alert("El precio de su pédido es: " + resultado + "€")
