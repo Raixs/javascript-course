@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío 1</title>
+</head>
+<body>
+    <h1>🎉 Desafío 1 🎉</h1>
+    <script>
+        // Obtenemos el año actual
+
+        var currentTime = new Date();
+        const year = currentTime.getFullYear()
+        console.log(year);
+
+        // Pedimos el nombre del usuario:
+        let nombre = prompt("Inserta tu nombre")
+        alert("¡Hola " + nombre + "! 😊")
+
+        //Preguntamos el año de nacimiento
+        var año = prompt("¿Y en que año naciste? 👶")
+
+        //Lo parseamos a un entero
+        parseInt(año)
+        console.log(año) //Veríficamos la entrada del usuario
+
+        //Calculamos la edad del usuario
+        var edad = year - año
+
+        // Notificamos al usuario
+        alert(nombre + ", tienes " + edad + " años ")
+    </script>
+</body>
+</html>
